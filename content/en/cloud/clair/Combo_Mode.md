@@ -67,7 +67,5 @@ $ ./clair -conf "./local-dev/clair/config.yaml" -mode "combo"
 
 The running logs on your screen confirms that Clair is running successfully in the Combo Mode. You can now open a new terminal and submit the manifest to generate the Vulnerability report.
 
-[<-- Return to Learning Path](/content/en/cloud/clair/#sections)
-
-[How to Generate the Vulnerability Report -->](/content/en/cloud/clair/Generate_Vulnerability_Report.md)
+[<-- Return to Learning Path](/content/en/cloud/clair/#sections)                                            [How to Generate the Vulnerability Report -->](/content/en/cloud/clair/Generate_Vulnerability_Report.md)
 
