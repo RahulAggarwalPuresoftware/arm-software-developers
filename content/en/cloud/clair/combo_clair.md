@@ -25,7 +25,7 @@ Then follow [this documentation](https://quay.github.io/clair/howto/getting_star
 
 NOTE: The below mentioned steps are tested successfully with Clair v4.4.4.
 
-* Wget Clair v4.4.4:
+* Download Clair v4.4.4:
 
 ```console
 wget https://github.com/quay/clair/releases/download/v4.4.4/clair-v4.4.4.tar.gz
