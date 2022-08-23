@@ -25,6 +25,12 @@ Then follow [this documentation](https://quay.github.io/clair/howto/getting_star
 
 NOTE: The below mentioned steps are tested successfully with Clair v4.4.4.
 
+* Clone Clair:
+
+```console
+git clone https://github.com/quay/clair.git
+```
+
 * We will setup a postgres database for Clair to store all the vulnerabilities specific to containers. docker-compose.yaml already has a target "clair-database" to setup a postgres database for Clair. For the combo mode, since postgres service will run inside a private container network and Clair service runs on localhost, we are required to expose postgres port 5432 to localhost. To do so, simply add the following to "clair-database" target in docker-compose.yaml file.
 
 ```console
