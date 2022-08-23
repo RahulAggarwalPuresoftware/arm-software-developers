@@ -1,7 +1,7 @@
 ---
 processors : ["Neoverse-N1"]
 software : ["linux"]
-title: "Run Clair in the Distributed Mode"
+title: "Run Clair in the distributed mode"
 type: docs
 weight: 4
 hide_summary: true
