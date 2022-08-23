@@ -54,7 +54,7 @@ notifier:
 * Next, generate the clair binary with go, as below:
 
 ```console
-$ sudo go build ./cmd/clair
+sudo go build ./cmd/clair
 ```
 
 This will generate a clair binary in the root of the repo.
@@ -62,7 +62,7 @@ This will generate a clair binary in the root of the repo.
 * Now that the postgres service is running and clair's configuration is ready, run Clair in the combo mode as below:
 
 ```console
-$ ./clair -conf "./local-dev/clair/config.yaml" -mode "combo"
+./clair -conf "./local-dev/clair/config.yaml" -mode "combo"
 ```
 
 The running logs on your screen confirms that Clair is running successfully in the combo mode. You can now open a new terminal and submit the manifest to generate the vulnerability report.
