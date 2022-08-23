@@ -4,7 +4,7 @@ software : ["linux"]
 title: "Introduction to Clair"
 type: docs
 weight: 4
-hide_summary: false
+hide_summary: true
 description: >
     Introduction to Clair and it's deployment models.
 ---
