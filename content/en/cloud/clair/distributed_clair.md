@@ -6,7 +6,7 @@ type: docs
 weight: 4
 hide_summary: true
 description: >
-    Learn how to setup the configuration to run Clair in the Distributed Mode.
+    Learn how to setup the configuration to run Clair in the distributed mode.
 ---
 
 ## Pre-requisites
