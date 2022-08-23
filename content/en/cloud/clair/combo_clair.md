@@ -69,5 +69,5 @@ The running logs on your screen confirms that Clair is running successfully in t
 
 [<-- Return to Learning Path](/content/en/cloud/clair/#sections)
 
-[How to Generate the Vulnerability Report -->](/content/en/cloud/clair/Generate_Vulnerability_Report.md)
+[How to Generate the Vulnerability Report -->](/content/en/cloud/clair/vulnerability_report.md)
 
