@@ -24,10 +24,10 @@ By the end of this learning path, you will be able to:
 
 |          Type | Content                       |
 | ---           | ---                                 |
-| How-To        | [What is Clair](/content/en/cloud/clair/About_Clair.md)
-| How-To        | [Clair in Combo Mode](/content/en/cloud/clair/Combo_Mode.md) |
-| How-To        | [Clair in Distributed Mode](/content/en/cloud/clair/Distributed_Mode.md) |
-| How-To        | [Generate the Vulnerability Report](/content/en/cloud/clair/Generate_Vulnerability_Report.md)                        |
+| How-To        | [What is Clair](/content/en/cloud/clair/clair.md)
+| How-To        | [Clair in Combo Mode](/content/en/cloud/clair/combo_clair.md) |
+| How-To        | [Clair in Distributed Mode](/content/en/cloud/clair/distributed_clair.md) |
+| How-To        | [Generate the Vulnerability Report](/content/en/cloud/clair/vulnerability_report.md)                        |
 
 
 ## References and Documentation
