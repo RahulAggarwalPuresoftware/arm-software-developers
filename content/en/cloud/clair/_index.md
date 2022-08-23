@@ -24,7 +24,7 @@ By the end of this learning path, you will be able to:
 
 |          Type | Content                       |
 | ---           | ---                                 |
-| How-To        | [What is Clair](/content/en/cloud/clair/What_is_Clair.md)
+| How-To        | [What is Clair](/content/en/cloud/clair/About_Clair.md)
 | How-To        | [Clair in Combo Mode](/content/en/cloud/clair/Combo_Mode.md) |
 | How-To        | [Clair in Distributed Mode](/content/en/cloud/clair/Distributed_Mode.md) |
 | How-To        | [Generate the Vulnerability Report](/content/en/cloud/clair/Generate_Vulnerability_Report.md)                        |
