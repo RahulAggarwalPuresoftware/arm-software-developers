@@ -19,7 +19,7 @@ description: >
 
 Using your AWS Account, launch an ARM 64-bit instance running Ubuntu.
 
-Then follow [this documentation](https://quay.github.io/clair/howto/deployment.html#distributed-deployment) to run Clair in the Distributed Mode.
+Then follow [this documentation](https://quay.github.io/clair/howto/deployment.html#distributed-deployment) to run Clair in the distributed mode.
 
 ### Steps in brief
 
@@ -30,37 +30,37 @@ In a distributed deployment, each Clair process i.e. indexer, matcher and notifi
 * Execute below command to setup postgres database:
 
 ```console
-$ sudo docker-compose up -d clair-database
+sudo docker-compose up -d clair-database
 ```
 
 * We will need a load balancer to divert traffic to the correct service i.e. indexer, matcher and notifier as requested. We will use "Traefik" here, which will run on port 6060. To setup traefik, execute the below command:
 
 ```console
-$ sudo docker-compose up -d traefik
+sudo docker-compose up -d traefik
 ```
 
 * Next, run indexer, matcher and notifier as 3 separate processes. docker-compose.yaml already has targets defined for the same.
 
 ```console
-$ sudo docker-compose up -d indexer matcher notifier
+sudo docker-compose up -d indexer matcher notifier
 ```
 
 * You can verify if all 5 containers, i.e. clair-database, traefik, indexer, matcher, notifier, are running, using docker CLI:
 
 ```console
-$ sudo docker ps
+sudo docker ps
 ```
 
 * To check logs in each of the Clair's service:
 
 ```console
-$ sudo docker logs clair-indexer
-$ sudo docker logs clair-matcher
-$ sudo docker logs clair-notifier
+sudo docker logs clair-indexer
+sudo docker logs clair-matcher
+sudo docker logs clair-notifier
 ```
 
-* Now that everything is running, you can submit manifest for generating the Vulnerability Report.
+* Now that everything is running, you can submit manifest for generating the vulnerability report.
 
 [<-- Return to Learning Path](/content/en/cloud/clair/#sections)
 
-[How to Generate the Vulnerability Report -->](/content/en/cloud/clair/Generate_Vulnerability_Report.md)
+[How to Generate the Vulnerability Report -->](/content/en/cloud/clair/vulnerability_report.md)
