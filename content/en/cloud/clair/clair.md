@@ -11,7 +11,7 @@ description: >
 
 ## What is Clair
 
-Clair is an application for parsing image contents and reporting vulnerabilities affecting the contents. This is done via static analysis and not at runtime.
+[Clair](https://github.com/quay/clair) is an application for parsing image contents and reporting vulnerabilities affecting the contents. This is done via static analysis and not at runtime.
 Clair supports the extraction of contents and assignment of vulnerabilities from the following official base containers:
 
 * Ubuntu
