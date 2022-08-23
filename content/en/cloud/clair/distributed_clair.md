@@ -27,10 +27,11 @@ NOTE: The below mentioned steps are tested successfully with Clair v4.4.4.
 
 In a distributed deployment, each Clair process i.e. indexer, matcher and notifier, runs in its own OS process. docker-compose.yaml already has targets defined to run these 3 modes. Unlike the Combo mode, all 3 modes will run inside containers. So, there is no need to expose postgres port 5432, as all 3 modes of Clair are in same container network as postgres is.
 
-* Clone Clair:
+* Download Clair v4.4.4:
 
 ```console
-git clone https://github.com/quay/clair.git
+wget https://github.com/quay/clair/releases/download/v4.4.4/clair-v4.4.4.tar.gz
+tar -xvf clair-v4.4.4.tar.gz
 ```
 
 * Execute below command to setup postgres database:
