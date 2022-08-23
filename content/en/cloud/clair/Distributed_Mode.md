@@ -62,4 +62,5 @@ $ sudo docker logs clair-notifier
 * Now that everything is running, you can submit manifest for generating the Vulnerability Report.
 
 [<-- Return to Learning Path](/content/en/cloud/clair/#sections)
+
 [How to Generate the Vulnerability Report -->](/content/en/cloud/clair/Generate_Vulnerability_Report.md)
