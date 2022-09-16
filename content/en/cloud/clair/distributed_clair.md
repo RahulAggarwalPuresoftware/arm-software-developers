@@ -3,7 +3,7 @@ processors : ["Neoverse-N1"]
 software : ["linux"]
 title: "Run Clair in the distributed mode"
 type: docs
-weight: 4
+weight: 3
 hide_summary: true
 description: >
     Learn how to setup the configuration to run Clair in the distributed mode.
