@@ -3,7 +3,7 @@ processors : ["Neoverse-N1"]
 software : ["linux"]
 title: "Introduction to Clair"
 type: docs
-weight: 4
+weight: 1
 hide_summary: true
 description: >
     Introduction to Clair and it's deployment models.
